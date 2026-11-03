@@ -1,0 +1,475 @@
+<resources>
+    <string name="app_name">Belanja</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Utama</string>
+    <string name="nav_txn">Transaksi</string>
+    <string name="nav_insights">Analisis</string>
+    <string name="nav_budget">Bajet</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_save">Simpan</string>
+
+    <!-- Categories (display names; internal keys stay English) -->
+    <string name="cat_grocery">Grocery</string>
+    <string name="cat_makan">Makan</string>
+    <string name="cat_minyak">Minyak</string>
+    <string name="cat_online">Online</string>
+    <string name="cat_bills">Bil</string>
+    <string name="cat_transport">Pengangkutan</string>
+    <string name="cat_health">Kesihatan</string>
+    <string name="cat_family">Keluarga</string>
+    <string name="cat_lain">Lain-lain</string>
+    <string name="cat_suggest_q">%1$s?</string>
+
+    <!-- Month nav -->
+    <string name="month_prev">Bulan sebelum</string>
+    <string name="month_next">Bulan seterusnya</string>
+    <string name="cal_toggle">Buka kalendar</string>
+
+    <!-- Utama / hero -->
+    <string name="hero_label">BAKI BULAN INI</string>
+    <string name="hero_sub">daripada bajet %1$s · %2$d hari lagi</string>
+    <string name="hero_sub_past">daripada bajet %1$s</string>
+    <string name="hero_spent">Dibelanja %1$s</string>
+    <string name="over_label">LEBIH BAJET</string>
+    <string name="over_sub">%1$s dibelanja daripada bajet %2$s</string>
+    <string name="over_top">Penyumbang terbesar: %1$s (+%2$s)</string>
+    <string name="review_title">Untuk disemak</string>
+    <string name="review_confirm">Sahkan</string>
+    <string name="yesterday">Semalam</string>
+    <string name="by_cat">Ikut kategori</string>
+    <string name="budgets_link">Bajet →</string>
+    <string name="pct_of_budget">%1$d%% / %2$s</string>
+    <string name="pct_of_total">%1$d%% jumlah</string>
+    <string name="stmt_banner">Penyata: %1$d belum selesai · buka →</string>
+
+    <!-- Empty / setup -->
+    <string name="empty_title">Belum ada transaksi</string>
+    <string name="empty_sub">Bayar apa-apa guna MAE atau TNG — ia akan muncul di sini sendiri.</string>
+    <string name="empty_month">Tiada perbelanjaan direkod bulan ini.</string>
+    <string name="setup_title">Tiga langkah, lepas tu senyap</string>
+    <string name="setup_sub">Belanja menangkap notifikasi pembayaran secara automatik. Tiada kemasukan manual diperlukan selepas ini.</string>
+    <string name="setup_1">Log masuk ke pelayan</string>
+    <string name="setup_1s">Disambungkan ke pelayan homelab kau.</string>
+    <string name="setup_2">Benarkan akses notifikasi</string>
+    <string name="setup_2s">Supaya Belanja nampak notifikasi Samsung Pay, MAE, Shopee, TNG, Setel &amp; Grab.</string>
+    <string name="setup_3">Nyahsekat bateri</string>
+    <string name="setup_3s">Supaya tangkapan tak terhenti bila skrin dikunci.</string>
+    <string name="setup_open">Buka tetapan</string>
+
+    <!-- Transaksi -->
+    <string name="txn_add">Tambah manual</string>
+    <string name="txn_search">Cari</string>
+    <string name="txn_search_hint">Cari kedai atau teks…</string>
+    <string name="tag_review">semak</string>
+    <string name="txn_has_receipt">Ada resit</string>
+    <string name="txn_search_results">Hasil carian</string>
+    <string name="txn_search_empty">Tiada padanan.</string>
+    <string name="txn_add_title">Tambah transaksi</string>
+    <string name="txn_add_merchant">Kedai</string>
+    <string name="txn_add_amount">Jumlah (RM)</string>
+    <string name="txn_add_save">Tambah</string>
+    <string name="txn_added">Transaksi ditambah</string>
+    <string name="manual_attach_receipt">Lampir resit</string>
+    <string name="manual_receipt_attached">Resit dilampirkan</string>
+    <string name="manual_receipt_date">Tarikh dari resit: %1$s</string>
+    <string name="manual_parse_fail">Resit tidak dapat dibaca</string>
+    <string name="src_manual">TUNAI</string>
+    <string name="src_statement">PENYATA</string>
+
+    <!-- Butiran transaksi -->
+    <string name="txd_cat">Kategori</string>
+    <string name="txd_change">tukar</string>
+    <string name="txd_amt">Jumlah</string>
+    <string name="txd_fix">betulkan</string>
+    <string name="txd_src">Sumber</string>
+    <string name="txd_receipt">Resit</string>
+    <string name="txd_receipt_none">Tiada</string>
+    <string name="txd_sync">Sync</string>
+    <string name="txd_synced">Tersimpan di pelayan ✓</string>
+    <string name="txd_sync_pending">Menunggu sync…</string>
+    <string name="txd_raw">Notifikasi asal</string>
+    <string name="txd_confirm">Sahkan kategori</string>
+    <string name="txd_delete">Padam</string>
+    <string name="txd_delete_title">Padam transaksi?</string>
+    <string name="txd_delete_body">Baris ini akan dibuang dari telefon dan dari pelayan.</string>
+    <string name="txd_deleted">Transaksi dipadam</string>
+    <string name="txd_confirmed">Kategori disahkan</string>
+    <string name="txd_amount_unknown">Jumlah tidak diketahui</string>
+    <string name="txd_fix_title">Betulkan jumlah</string>
+    <string name="rcpt_upload">Muat naik resit</string>
+    <string name="rcpt_scan">Imbas kamera</string>
+    <string name="rcpt_view">Lihat / Muat turun</string>
+    <string name="rcpt_delete">Padam resit</string>
+    <string name="rcpt_uploaded">Resit dilampirkan</string>
+    <string name="rcpt_upload_failed">Muat naik resit gagal</string>
+    <string name="rcpt_exists">Resit sudah dilampirkan</string>
+    <string name="rcpt_too_big">Fail melebihi 10 MB</string>
+    <string name="rcpt_downloaded">Resit dimuat turun</string>
+    <string name="rcpt_download_failed">Muat turun gagal</string>
+    <string name="rcpt_deleted">Resit dipadam</string>
+    <string name="rcpt_delete_failed">Padam resit gagal</string>
+
+    <!-- Tukar kategori -->
+    <string name="pick_cat">Pilih kategori</string>
+    <string name="learn_q">Sentiasa kategorikan %1$s sebagai %2$s?</string>
+    <string name="learn_yes">Ya, ingat</string>
+    <string name="learn_once">Sekali ini sahaja</string>
+    <string name="merchant_remembered">Kedai diingati</string>
+    <string name="category_changed">Kategori ditukar</string>
+
+    <!-- Analisis -->
+    <string name="chart_label">PERBELANJAAN · 6 BULAN</string>
+    <string name="what_changed">Apa yang berubah</string>
+    <string name="ins_up_lead">%1$s naik %2$d%%</string>
+    <string name="ins_down_lead">%1$s turun %2$d%%</string>
+    <string name="ins_rest">" berbanding %1$s — %2$s setakat ini."</string>
+    <string name="ins_new_lead">%1$s: baharu bulan ini</string>
+    <string name="ins_new_rest">" — %1$s setakat ini."</string>
+    <string name="ins_none">Belum cukup data untuk perbandingan.</string>
+    <string name="top_merchants">Kedai paling kerap</string>
+    <string name="merchant_stat">%1$d× · %2$s</string>
+
+    <!-- Bajet -->
+    <string name="bud_overall">BAJET KESELURUHAN / BULAN</string>
+    <string name="bud_optional">PILIHAN</string>
+    <string name="bud_save">Simpan bajet</string>
+    <string name="bud_saved">Bajet disimpan</string>
+    <string name="bud_hint">Kosongkan untuk buang bajet kategori.</string>
+    <string name="bud_cycle">KITARAN BAJET</string>
+    <string name="bud_cycle_day">Hari mula kitaran (1–31)</string>
+    <string name="bud_cycle_hint">1 = ikut bulan kalendar. Gaji masuk 28hb? Taip 28 — kitaran jadi 28hb hingga 27hb bulan depan, dan semua bulan lepas dikira ikut kitaran sama. Bulan yang lebih pendek daripada hari pilihan mula pada hari terakhirnya (31 → Feb mula 28hb).</string>
+    <string name="txn_deleted">Transaksi dipadam</string>
+    <string name="txn_delete">Padam transaksi</string>
+    <string name="manual_scan_receipt">Imbas kamera</string>
+    <string name="rcpt_scanned_name">resit-imbasan.pdf</string>
+    <string name="rcpt_scanner_unavailable">Pengimbas dokumen tak tersedia — cuba lagi atau pilih fail</string>
+    <string name="bud_set">Letak bajet</string>
+    <string name="bud_edit">Ubah bajet</string>
+    <string name="bud_none">tiada bajet</string>
+    <string name="bud_of">daripada %1$s</string>
+    <string name="bud_dialog_title">Bajet %1$s</string>
+    <string name="bud_monthly_rm">Bajet bulanan (RM)</string>
+    <string name="bud_remove_hint">Kosongkan atau 0 untuk buang.</string>
+
+    <!-- Kategori detail -->
+    <string name="cat_last6">6 bulan terakhir</string>
+    <string name="cat_txns">Transaksi</string>
+    <string name="cat_empty">Tiada apa-apa dalam %1$s bulan ini.</string>
+
+    <!-- Log masuk -->
+    <string name="login_tag">Penjejak perbelanjaan. Milik kau, di pelayan kau.</string>
+    <string name="login_user">Nama pengguna</string>
+    <string name="login_pass">Kata laluan</string>
+    <string name="login_btn">Log masuk</string>
+    <string name="login_vpn">Sambungan melalui VPN homelab sahaja.</string>
+    <string name="login_empty">Isi nama pengguna dan kata laluan</string>
+    <string name="login_bad">Nama pengguna atau kata laluan salah</string>
+
+    <!-- Tetapan -->
+    <string name="set_title">Tetapan</string>
+    <string name="set_app">Aplikasi</string>
+    <string name="set_lang">Bahasa</string>
+    <string name="set_lang_ms">Bahasa Melayu</string>
+    <string name="set_lang_en">English</string>
+    <string name="set_theme">Tema</string>
+    <string name="set_theme_system">Ikut sistem</string>
+    <string name="set_theme_light">Cerah</string>
+    <string name="set_theme_dark">Gelap</string>
+    <string name="set_server">Pelayan</string>
+    <string name="set_url">URL pelayan</string>
+    <string name="set_status">Status</string>
+    <string name="set_connected">Bersambung ✓</string>
+    <string name="set_lastsync">Sync terakhir</string>
+    <string name="set_never">belum pernah</string>
+    <string name="set_pending">Tertunggak</string>
+    <string name="set_pending_v">%1$d transaksi</string>
+    <string name="set_sync_now">Sync sekarang</string>
+    <string name="set_stmt">Penyata</string>
+    <string name="set_stmt_open">%1$d belum selesai · buka →</string>
+    <string name="set_stmt_clear">Semua selesai · buka →</string>
+    <string name="set_stmt_none">Tiada penyata dimuat naik</string>
+    <string name="set_stmt_up">Muat naik penyata</string>
+    <string name="set_stmt_up_v">PDF →</string>
+    <string name="set_capture">Tangkapan</string>
+    <string name="set_notif">Akses notifikasi</string>
+    <string name="set_active">Aktif ✓</string>
+    <string name="set_inactive">Tidak aktif — buka tetapan</string>
+    <string name="set_batt">Bateri</string>
+    <string name="set_unrestricted">Tidak disekat ✓</string>
+    <string name="set_restricted">Disekat — buka tetapan</string>
+    <string name="set_sources">Sumber dipantau</string>
+    <string name="recat_section">Penyelenggaraan</string>
+    <string name="recat_row">Kemas kini kategori automatik</string>
+    <string name="recat_run">Jalankan →</string>
+    <string name="recat_hint">Jalankan semula peraturan kategori ke atas transaksi Lain-lain.</string>
+    <string name="recat_done">%1$d transaksi dikemas kini</string>
+    <string name="set_account">Akaun</string>
+    <string name="set_user">Pengguna</string>
+    <string name="set_change">Tukar →</string>
+    <string name="set_logout">Log keluar</string>
+    <string name="chpass_title">Tukar kata laluan</string>
+    <string name="chpass_current">Kata laluan semasa</string>
+    <string name="chpass_new">Kata laluan baharu</string>
+    <string name="chpass_ok">Kata laluan ditukar</string>
+    <string name="chpass_fail">Tukar kata laluan gagal</string>
+
+    <!-- Penyata -->
+    <string name="stmt_title">Penyata</string>
+    <string name="stmt_label">PENYATA %1$s</string>
+    <string name="stmt_uploaded">Dimuat naik %1$s · PDF</string>
+    <string name="stmt_reupload">Muat naik semula</string>
+    <string name="stmt_matched">dipadankan</string>
+    <string name="stmt_missing">tiada dalam Belanja</string>
+    <string name="stmt_pending">belum jelas</string>
+    <string name="stmt_missing_head">Tiada dalam Belanja</string>
+    <string name="stmt_pending_head">Belum jelas</string>
+    <string name="stmt_add">Tambah</string>
+    <string name="stmt_ignore">Abai</string>
+    <string name="stmt_not_posted">mungkin belum diposkan ke penyata</string>
+    <string name="stmt_note">Penyata ialah jaring keselamatan: apa-apa yang lalu kad tapi notifikasinya terlepas akan muncul di sini. Satu ketukan untuk tambah, kategori dicadang dari kamus merchant.</string>
+    <string name="stmt_added">Ditambah ke Belanja</string>
+    <string name="stmt_ignored">Baris diabaikan</string>
+    <string name="stmt_upload_ok">Penyata dimuat naik</string>
+    <string name="stmt_upload_fail">Muat naik penyata gagal</string>
+    <string name="stmt_empty">Belum ada penyata. Muat naik PDF penyata Maybank dari Tetapan.</string>
+    <string name="stmt_resolve_fail">Tindakan gagal — cuba lagi</string>
+
+    <!-- Cukai (LHDN reliefs) -->
+    <string name="tax_mode_spend">Belanja</string>
+    <string name="tax_mode_tax">Cukai</string>
+    <string name="tax_ya">Tahun Taksiran %1$d</string>
+    <string name="tax_ya_prev">Tahun sebelum</string>
+    <string name="tax_ya_next">Tahun seterusnya</string>
+    <string name="tax_hero_label">BOLEH CLAIM · BERBUKTI RESIT</string>
+    <string name="tax_hero_unproven">+ %1$s ditag tapi belum ada resit</string>
+    <string name="tax_nudge">%1$s lagi untuk penuhkan %2$s — tag &amp; lampirkan resit belian seterusnya.</string>
+    <string name="tax_receipts_n">%1$d resit</string>
+    <string name="tax_show_all">Tunjuk semua (%1$d lagi)</string>
+    <string name="tax_show_less">Sembunyi pelepasan kosong</string>
+    <string name="tax_loading">Memuatkan ringkasan cukai…</string>
+    <string name="tax_offline">Ringkasan cukai perlukan sambungan pelayan.</string>
+    <string name="tax_cap_label">YA%1$d · CAP %2$s</string>
+    <string name="tax_cap_none">YA%1$d · TIADA HAD</string>
+    <string name="tax_room_left">%1$s ruang tinggal · %2$d resit berbukti</string>
+    <string name="tax_over_cap_sub">melebihi cap · %1$d resit berbukti</string>
+    <string name="tax_eligible_head">APA YANG LAYAK (LHDN)</string>
+    <string name="tax_not_eligible_mark">✕ tak layak</string>
+    <string name="tax_use_sports">→ guna Sukan</string>
+    <string name="tax_tagged_txns">TRANSAKSI DITAG</string>
+    <string name="tax_evid_ok">resit ✓</string>
+    <string name="tax_evid_no">tiada resit — lampirkan</string>
+    <string name="tax_near_cap">Hampir cap: belian melebihi %1$s lagi tak akan dikira untuk YA%2$d. Belian besar? Pertimbang tangguh ke Januari.</string>
+    <string name="tax_txns_empty">Belum ada transaksi ditag untuk pelepasan ini.</string>
+
+    <!-- Pelepasan dalam butiran txn -->
+    <string name="txd_relief">Pelepasan cukai</string>
+    <string name="relief_untagged">Belum ditag</string>
+    <string name="relief_none">Tak layak</string>
+    <string name="relief_suggest">Cadangan: %1$s</string>
+    <string name="relief_suggest_yes">Ya, tag %1$s</string>
+    <string name="relief_pick_other">Pilih lain</string>
+    <string name="relief_caveat_medical">Ingat: ubat OTC/vitamin TAK layak — hanya preskripsi &amp; rawatan. Kau yang pastikan.</string>
+    <string name="relief_caveat_lifestyle">Ingat: jam pintar / kamera / konsol TAK layak.</string>
+    <string name="relief_caveat_sports">Gym &amp; alatan sukan ya — pakaian biasa tak layak.</string>
+    <string name="relief_caveat_vm">Hanya tiket tarikan pelancongan berdaftar yang layak.</string>
+    <string name="relief_caveat_generic">Kau yang pastikan kelayakan ikut syarat LHDN.</string>
+    <string name="relief_pick_title">Tag pelepasan YA%1$d</string>
+    <string name="relief_room_left">%1$s lagi</string>
+    <string name="relief_room_warn">%1$s lagi!</string>
+    <string name="relief_full">Penuh</string>
+    <string name="relief_tagged_snack">Pelepasan ditag</string>
+    <string name="relief_none_snack">Ditanda tak layak</string>
+    <string name="relief_cleared_snack">Tag pelepasan dibuang</string>
+
+    <!-- Apa yang layak (statik, ikut mockup) -->
+    <string name="elig_life_1">Buku / majalah / surat khabar</string>
+    <string name="elig_life_2">PC / telefon pintar / tablet</string>
+    <string name="elig_life_3">Langganan internet (nama sendiri)</string>
+    <string name="elig_life_4">Jam pintar / kamera / konsol</string>
+    <string name="elig_life_5">Gym &amp; alatan sukan</string>
+    <string name="elig_sport_1">Gym / yuran fasiliti sukan</string>
+    <string name="elig_sport_2">Alatan sukan</string>
+    <string name="elig_sport_3">Yuran penyertaan acara sukan</string>
+    <string name="elig_sport_4">Pakaian &amp; kasut biasa</string>
+    <string name="elig_med_1">Preskripsi &amp; rawatan</string>
+    <string name="elig_med_2">Vaksin (sub-cap RM1,000)</string>
+    <string name="elig_med_3">Pemeriksaan kesihatan (sub-cap RM1,000)</string>
+    <string name="elig_med_4">Dental (sub-cap RM1,000)</string>
+    <string name="elig_med_5">Ubat OTC / vitamin / suplemen</string>
+
+    <!-- Errors / generic -->
+    <string name="err_offline">Tiada sambungan — cuba lagi nanti</string>
+    <string name="err_generic">Ralat pelayan — cuba lagi</string>
+    <string name="loading">Memuatkan…</string>
+    <string name="amount_edit_saved">Jumlah dibetulkan</string>
+    <string name="stmt_add_all">Tambah semua (%1$d)</string>
+    <string name="stmt_ignore_all">Abai semua</string>
+    <string name="stmt_delete_run">Padam penyata ini</string>
+    <string name="stmt_added_all">Semua ditambah ke Belanja</string>
+    <string name="stmt_ignored_all">Semua baris diabaikan</string>
+    <string name="stmt_deleted">Penyata dipadam</string>
+    <string name="tax_load_fail">Server tolak permintaan — cuba lagi</string>
+
+    <!-- Mod solo -->
+    <string name="login_solo">Guna tanpa pelayan →</string>
+    <string name="setup_1_solo">Mod solo aktif</string>
+    <string name="setup_1s_solo">Semua data kekal di telefon; sandaran ke folder SAF dari Tetapan.</string>
+    <string name="set_mode">Mod</string>
+    <string name="set_mode_server">Pelayan</string>
+    <string name="set_mode_solo">Solo</string>
+    <string name="set_mode_hint">Tukar mod tidak sentuh data tempatan — transaksi, resit dan penyata kekal.</string>
+    <string name="txd_saved_local">Disimpan setempat ✓</string>
+    <string name="rcpt_saved_pending">Resit disimpan — sandaran SAF menunggu</string>
+
+    <!-- Sandaran (SAF) -->
+    <string name="set_backup">Sandaran (SAF)</string>
+    <string name="set_backup_folder">Folder</string>
+    <string name="set_backup_pick">Pilih folder sandaran</string>
+    <string name="set_backup_change">Tukar →</string>
+    <string name="set_backup_last">Sandaran terakhir</string>
+    <string name="set_backup_now">Sandar sekarang</string>
+    <string name="set_backup_prompt">Belum ada folder sandaran. Pilih satu folder (kad SD, Drive, storan telefon) — resit dan salinan pangkalan data akan ditulis ke situ setiap jam.</string>
+    <string name="backup_started">Sandaran dijalankan…</string>
+
+    <!-- Penyata (solo) -->
+    <string name="stmt_pdf_locked">PDF berkunci — muat turun dari M2U web</string>
+    <string name="stmt_parse_fail">Penyata tidak dapat dibaca — pastikan PDF penyata Maybank</string>
+
+    <!-- Diagnostik -->
+    <string name="diag_title">Diagnostik</string>
+    <string name="diag_view">Log aplikasi</string>
+    <string name="diag_open">Lihat log →</string>
+    <string name="diag_export">Eksport diagnostik</string>
+    <string name="diag_export_v">Zip →</string>
+    <string name="diag_export_fail">Eksport diagnostik gagal</string>
+    <string name="diag_send">Hantar ke pelayan</string>
+    <string name="diag_sent">Diagnostik dihantar ke pelayan</string>
+    <string name="diag_endpoint_missing">endpoint belum tersedia</string>
+    <string name="diag_empty">Belum ada log. Guna aplikasi dulu — tangkapan, sync dan sandaran akan direkod di sini.</string>
+    <string name="tax_needs_server">Skrin Cukai perlukan sambungan ke pelayan (VPN). Tab lain guna data tempatan, sebab tu ia okay.</string>
+    <string name="tax_retry">Cuba lagi</string>
+    <string name="cat_pindahan">Pindahan</string>
+    <string name="set_candidates">Sumber dicadang</string>
+    <string name="set_candidates_hint">App ini menghantar notifikasi berbau bayaran tetapi belum dipantau.</string>
+    <string name="set_candidate_add">Pantau</string>
+    <string name="set_candidate_no">Abai</string>
+
+    <!-- Akal (BYOK) -->
+    <string name="brain_title">Akal</string>
+    <string name="brain_lede">Belanja tiada akal sendiri dan dihantar tanpa kunci. Bawa satu — ia kekal dalam telefon ini.</string>
+    <string name="brain_direct">Terus</string>
+    <string name="brain_compatible">Serasi — apa-apa yang lain</string>
+    <string name="brain_compat_openai_eg">Kimi, GLM, DeepSeek, Ollama, LM Studio, OpenRouter…</string>
+    <string name="brain_compat_anthropic_eg">Proksi dan gateway yang bercakap bentuk ini</string>
+    <string name="brain_wire_openai">BENTUK OPENAI</string>
+    <string name="brain_wire_anthropic">BENTUK ANTHROPIC</string>
+    <string name="brain_wire_note">Dua yang bawah bukan pembekal — ia bentuk protokol. Hampir setiap hos model bercakap salah satu daripadanya, jadi lima entri melitupi seluruh padang. Tiga yang di atas cuma pratetap yang isikan URL.</string>
+    <string name="brain_next">Seterusnya</string>
+    <string name="brain_back">Kembali</string>
+    <string name="brain_endpoint">Endpoint</string>
+    <string name="brain_endpoint_hint">Kebanyakan pembekal berakhir dengan /v1. Ollama sendiri: http://127.0.0.1:11434/v1</string>
+    <string name="brain_key">Kunci API</string>
+    <string name="brain_key_hint">Biar kosong untuk Ollama tempatan — ia tak periksa kunci.</string>
+    <string name="brain_show">Tunjuk</string>
+    <string name="brain_hide">Sorok</string>
+    <string name="brain_connect">Sambung &amp; muat model</string>
+    <string name="brain_connecting">Menyambung…</string>
+    <string name="brain_where_key">Kunci disimpan tersulit dalam telefon ini, di bawah kunci yang tak boleh dieksport. Ia tak pernah masuk folder sandaran resit dan tak pernah dihantar ke mana-mana kecuali endpoint yang anda taip.</string>
+    <string name="brain_connected_v">Bersambung · %1$d model · %2$s · %3$d ms</string>
+    <string name="brain_search">Cari model</string>
+    <string name="brain_no_match">Tiada model sepadan.</string>
+    <string name="brain_fetched_note">Senarai ini datang dari endpoint anda, bukan senarai yang kami tanam. Model baharu muncul pada hari pembekal keluarkannya, dan Ollama tempatan tunjuk apa yang anda betul-betul tarik.</string>
+    <string name="brain_model_manual">ID model</string>
+    <string name="brain_use_id">Guna ID ini</string>
+    <string name="brain_saved">Akal disambung</string>
+    <string name="brain_removed">Akal dibuang</string>
+    <string name="brain_current">Akal sekarang</string>
+    <string name="brain_no_model">Belum pilih model</string>
+    <string name="brain_change_model">Tukar model</string>
+    <string name="brain_remove">Buang</string>
+    <string name="brain_key_lost">Kunci tak dapat dibuka semula — mungkin data app dikosongkan atau dipulihkan ke peranti lain. Taip kunci sekali lagi.</string>
+    <string name="brain_guard">Pengawal belanja</string>
+    <string name="brain_calls_v">%1$d daripada %2$d panggilan bulan ini</string>
+    <string name="brain_tokens_v">%1$d token masuk · %2$d token keluar</string>
+    <string name="brain_guard_note">Hadnya panggilan, bukan ringgit: kami tak tahu harga sesuatu model pada endpoint anda, dan mereka-reka harga itu penipuan yang menyamar sebagai perlindungan. Token dipapar supaya anda boleh padankan dengan bil pembekal sendiri. Bila cukup had, Akal berhenti memanggil dan peraturan teruskan sendiri.</string>
+    <string name="brain_allowed">Apa Akal dibenarkan buat</string>
+    <string name="brain_f_category">Kategori pintar</string>
+    <string name="brain_f_category_sub">Hanya untuk kedai yang peraturan tak kenal</string>
+    <string name="brain_f_story">Cerita bulan</string>
+    <string name="brain_f_story_sub">Satu perenggan dalam Analisis, sebulan sekali</string>
+    <string name="brain_f_makcik">Murai</string>
+    <string name="brain_f_makcik_sub">Bebel harian; dari 70% setiap belian kena tembak</string>
+    <string name="brain_f_advisor">Boleh beli tak?</string>
+    <string name="brain_f_advisor_sub">Hanya bila anda tanya</string>
+    <string name="brain_privacy">Apa yang keluar dari telefon ini</string>
+    <string name="brain_privacy_body">Nama kedai, jumlah, tarikh dan senarai kategori. Tidak pernah: fail resit, PDF penyata, keseluruhan ledger, atau nama anda.</string>
+    <string name="brain_e_key_title">Kunci ditolak</string>
+    <string name="brain_e_key_body">Endpoint menjawab, jadi URL betul. Ia cuma tak terima kunci ini.</string>
+    <string name="brain_e_nolist_title">Tiada senarai model</string>
+    <string name="brain_e_nolist_body">Endpoint hidup tapi tak sediakan senarai model. Sesetengah proksi melangkaunya — anda masih boleh guna dengan menaip ID model sendiri.</string>
+    <string name="brain_e_http_title">Endpoint menolak</string>
+    <string name="brain_e_http_body">%1$s</string>
+    <string name="brain_e_unreach_title">Langsung tak sampai</string>
+    <string name="brain_e_unreach_body">Tiada jawapan dalam 10 saat (%1$s). Kalau itu endpoint homelab, periksa VPN hidup.</string>
+    <string name="brain_e_shape_title">Jawapan tak difahami</string>
+    <string name="brain_e_shape_body">Endpoint menjawab tetapi bukan dalam bentuk yang kami kenal (%1$s).</string>
+    <string name="set_brain">Akal</string>
+    <string name="set_brain_off">Tiada</string>
+    <string name="brain_tag">OTAK</string>
+    <string name="brain_e_think_title">Model kehabisan ruang</string>
+    <string name="brain_e_think_body">Model penaakulan ini menghabiskan %1$d token untuk berfikir dan tiada baki untuk menjawab. Cuba model bukan-penaakulan, atau model yang lebih ringan.</string>
+    <string name="makcik_title">Murai</string>
+    <string name="makcik_t70">Dah 70% bajet: %1$s daripada %2$s. Perhati langkah.</string>
+    <string name="makcik_t90">Baki %1$s untuk %2$d hari lagi. Ketat sikit.</string>
+    <string name="makcik_t100">Bajet pecah: %1$s daripada %2$s, dan %3$d hari belum berakhir.</string>
+    <string name="story_label">CERITA BULAN INI</string>
+    <string name="story_loading">Akal sedang menulis cerita bulan ini…</string>
+    <string name="story_by">Ditulis oleh Akal · %1$d transaksi</string>
+    <string name="story_redo">Tulis semula</string>
+    <string name="story_fail">Cerita tak dapat ditulis: %1$s</string>
+    <string name="story_retry">Cuba lagi</string>
+    <string name="adv_label">BOLEH BELI TAK?</string>
+    <string name="adv_item">Barang</string>
+    <string name="adv_ask">Tanya</string>
+    <string name="adv_asking">Mengira…</string>
+    <string name="adv_yes">Boleh</string>
+    <string name="adv_yes_lede">Lepas beli dan tempoh biasa hujung bulan, masih berbaki %1$s.</string>
+    <string name="adv_wait">Tangguh dulu</string>
+    <string name="adv_wait_lede">Beli sekarang buat anda kurang %1$s untuk %2$d hari terakhir.</string>
+    <string name="adv_left">Baki bajet bulan ini</string>
+    <string name="adv_tail">Lazimnya %1$d hari terakhir</string>
+    <string name="adv_bal">Baki selepas semua</string>
+    <string name="adv_short">Kurang</string>
+    <string name="adv_local_note">Kiraan tempatan — Akal tak dihubungi.</string>
+    <string name="makcik_p_sopan">Sopan</string>
+    <string name="makcik_p_makcik">Murai</string>
+    <string name="makcik_p_pedas">Lazer</string>
+    <string name="pie_label">bulan ini</string>
+    <string name="brain_master">Akal hidup</string>
+    <string name="brain_usage_v">Bulan ini: %1$d panggilan · %2$d token masuk · %3$d keluar</string>
+    <string name="review_reject">Abaikan cadangan</string>
+    <string name="review_open">Butiran</string>
+    <string name="review_brain_propose">Akal cadang: %1$s</string>
+    <string name="review_rules_cat">Peraturan: %1$s</string>
+    <string name="rcpt_scan_failed">Kamera gagal — cuba lagi</string>
+    <string name="prof_title">Profil &amp; Akaun</string>
+    <string name="prof_unnamed">Belum bernama</string>
+    <string name="prof_open">Lihat profil</string>
+    <string name="prof_photo_hint">Ketik untuk tukar gambar</string>
+    <string name="prof_name">Nama penuh</string>
+    <string name="prof_name_hint">Digunakan untuk kesan pindahan ke akaun sendiri (DuitNow ke nama sendiri).</string>
+    <string name="prof_save">Simpan</string>
+    <string name="prof_saved">Profil disimpan</string>
+    <string name="prof_accounts">Akaun sendiri</string>
+    <string name="prof_accounts_hint">Pergerakan duit antara akaun-akaun ini diabaikan terus — bukan belanja. Contoh: MAE, TnG, CIMB, RHB, Hong Leong, AEON, ShopeePay.</string>
+    <string name="prof_accounts_empty">Tiada akaun lagi. Tambah di bawah.</string>
+    <string name="prof_acc_label">Nama akaun</string>
+    <string name="prof_acc_last4">4 digit akhir</string>
+    <string name="prof_acc_add">Tambah akaun</string>
+    <string name="prof_remove">Buang</string>
+    <string name="action_menu">Menu</string>
+</resources>

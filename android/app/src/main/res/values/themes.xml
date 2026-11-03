@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Belanja" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/hum_paper</item>
+    </style>
+    <color name="hum_paper">#F7F5EC</color>
+</resources>

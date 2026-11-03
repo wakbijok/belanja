@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="receipts" path="receipts/" />
+    <!-- Solo mode: local receipt store viewed in place. -->
+    <files-path name="receipts_local" path="receipts/" />
+    <!-- Camera scan staging before attach. -->
+    <cache-path name="receipt_scan" path="receipt_scan/" />
+    <!-- Diagnostics bundle handed to the share sheet. -->
+    <cache-path name="diag" path="diag/" />
+</paths>

@@ -1,0 +1,47 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.apk
+!*-debug.apk.keep
+captures/
+.cxx/
+*.iml
+.idea/
+.kotlin/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+belanja.db
+*.sqlite3
+
+# Secrets / local credentials (never commit)
+.belanja-token
+.seed-pass
+*.pem
+*.p12
+*.jks
+*.keystore
+keystore.properties
+
+# Runtime data (never commit real user finance artifacts)
+server/receipts/*
+!server/receipts/.gitkeep
+exports/
+*.diag.zip
+diag-*.zip
+
+# Misc
+.DS_Store
+
+# Hallmark design-skill local log (not product)
+.hallmark/
+
+# Not product surface
+design/
+docs/
